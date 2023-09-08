@@ -53,7 +53,7 @@ const Team = () => {
           {/*---------------------------------------Team Start-----------------------------------------*/}
           <div className="flex flex-col justify-center items-center mx-10">
             <Image
-              src="/teamPlaceholder.png"
+              src="/teamplaceholder.png"
               alt="doctor"
               width={306}
               height={320}
@@ -92,7 +92,7 @@ const Team = () => {
           {/*---------------------------------------Team Start-----------------------------------------*/}
           <div className="flex flex-col justify-center items-center mx-10">
             <Image
-              src="/teamPlaceholder.png"
+              src="/teamplaceholder.png"
               alt="doctor"
               width={306}
               height={320}
@@ -127,23 +127,17 @@ const Team = () => {
             </div>
           </div>
           {/*---------------------------------------Team End-----------------------------------------*/}
-
-
-
-
-
-
         </div>
         {/*-------------------------------------------------------------------------------------*/}
       </div>
 
       {/*---------------------------------------END PARENT DIV-----------------------------------------*/}
-      <Image 
-      src="/yellowBorder.svg"
-      alt="blue border"
-      width={1920}
-      height={100}
-      className="xl:mt-[260px]"
+      <Image
+        src="/yellowBorder.svg"
+        alt="blue border"
+        width={1920}
+        height={100}
+        className="xl:mt-[260px]"
       />
     </section>
   );
