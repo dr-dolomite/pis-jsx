@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import CustomButton from "./CustomButton";
+import Link from "next/link";
 
 const PoisonInfoCard = ({ title, content }) => {
   return (
@@ -19,11 +20,14 @@ const PoisonInfoCard = ({ title, content }) => {
           </p>
         </div>
         <div className="items-center justify-center flex">
+          <Link href="/PoisonInformation/Article">
           <CustomButton
             title="Learn More"
             btnType="button"
             containerStyles="drop-shadow-md text-black hover:text-white font-semibold bg-[#FDD247] lg:text-[18px] lg:px-8 lg:py-2 rounded hover:bg-[#0067A2] active:bg-[#0067A2]"
           />
+          </Link>
+         
         </div>
       </div>
     </div>

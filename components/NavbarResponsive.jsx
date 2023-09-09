@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Navbar, Dropdown } from "flowbite-react";
+import { Navbar, Dropdown } from "flowbite-react";
 import { TextInput } from "flowbite-react";
 import { HiOutlineSearch, HiOutlineArrowRight } from "react-icons/hi";
 const NavbarResponsive = () => {
@@ -8,7 +8,7 @@ const NavbarResponsive = () => {
     <Navbar fluid rounded className="2xl:m-1">
       <Navbar.Brand href="/">
         <img
-          alt="Flowbite React Logo"
+          alt="PIS Logo"
           className="mr-3 h-10 2xl:h-[8rem]"
           src="logo.svg"
         />

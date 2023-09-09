@@ -1,5 +1,6 @@
 import React from "react";
 import PoisonInfoCard from "./PoisonInfoCard";
+import Link from "next/link";
 
 const PoisonInfoBoard = () => {
   return (
@@ -9,9 +10,12 @@ const PoisonInfoBoard = () => {
           Poison Awareness Information
         </h1>
         <div className="2xl:ml-12 2xl:h-12 2xl:border-r-4 border-solid border-[#FDD247]" />
+        <Link href="/PoisonInformation">
         <p className="text-black 2xl:text-[18px] font-normal ml-12 hover:text-[#0067A2] hover:cursor-pointer">
           View All
         </p>
+        </Link>
+        
       </div>
       <div className="items-center 2xl:mt-8 2xl:ml-4 flex flex-row">
         <div className="grid grid-cols-4 gap-y-4">

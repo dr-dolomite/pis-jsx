@@ -33,7 +33,7 @@ const LatestNews = () => {
                 workplaces, and communities.
               </p>
               <div className="items-center justify-center flex mt-8">
-                <Link href="/news">
+                <Link href="/News">
                   <CustomButton
                     title="Learn More"
                     btnType="button"
