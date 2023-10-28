@@ -15,6 +15,7 @@ import Toxicologists from "./Toxicologists";
 import Team from "./Team";
 import SocialMedia from "./SocialMedia";
 import Location from "./Location";
+import TypingAnimation from "./TypingAnimation";
 
 export {
     NavbarResponsive,
@@ -34,5 +35,6 @@ export {
     Team,
     SocialMedia,
     Location,
+    TypingAnimation,
     
 }

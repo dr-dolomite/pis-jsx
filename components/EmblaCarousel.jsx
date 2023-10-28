@@ -8,6 +8,8 @@ import slideContent from "./imageByIndex";
 import Image from "next/image";
 import { HiPhone } from "react-icons/hi";
 
+import Link from "next/link";
+
 const EmblaCarousel = (props) => {
   const { slides, options } = props;
 
@@ -25,10 +27,10 @@ const EmblaCarousel = (props) => {
               <div className="relative">
                 <div className="z-0 2xl:h-[760px] w-full h-[240px]">
                   <Image
-                  className="object-cover brightness-[.25]"
-                  src={slide.imageSrc}
-                  alt={`hero-${index}`}
-                  fill
+                    className="object-cover brightness-[.25]"
+                    src={slide.imageSrc}
+                    alt={`hero-${index}`}
+                    fill
                   />
                 </div>
                 <div className="absolute inset-0 z-10 flex items-center 2xl:left-20 left-5">
@@ -44,9 +46,11 @@ const EmblaCarousel = (props) => {
                         className="bg-[#0067A2] hover:bg-[#02588a] 2xl:p-2 p-0 w-[110px] h-[28px] xl:w-[280px] xl:h-[60px]"
                         color="primary"
                       >
-                        <span className="capitalize text-white font-semibold 2xl:text-[18px] text-[8px]">
-                          Get Help Online
-                        </span>
+                        <Link href="/Help">
+                          <span className="capitalize text-white font-semibold 2xl:text-[18px] text-[8px]">
+                            Get Help Online
+                          </span>
+                        </Link>
                       </Button>
                       <p className="text-white 2xl:text-[18px] text-[8px] 2xl:font-normal 2xl:mx-8 mx-2">
                         or
@@ -55,14 +59,12 @@ const EmblaCarousel = (props) => {
                         className="bg-[#FDD247] hover:bg-[#dab53c] 2xl:p-2 p-0 w-[120px] h-[28px] xl:w-[280px] xl:h-[60px]"
                         color="primary"
                       >
-                        
                         <HiPhone className="2xl:h-6 2xl:w-6 h-2 w-2 2xl:mr-3 mr-1 mt-1 text-black" />
                         <div className="flex flex-row items-center">
-                        <span className="capitalize text-black font-semibold 2xl:text-[18px] text-[8px]">
-                          Call 033-333-3333
-                        </span>
+                          <span className="capitalize text-black font-semibold 2xl:text-[18px] text-[8px]">
+                            Call 033-333-3333
+                          </span>
                         </div>
-                       
                       </Button>
                     </div>
                   </div>

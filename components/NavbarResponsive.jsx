@@ -42,44 +42,53 @@ const NavbarResponsive = () => {
       <Navbar.Collapse>
         <Navbar.Link
           active
-          href="#"
+          href="/"
           className="2xl:text-[18px] text-black dark:text-white"
         >
           Home
         </Navbar.Link>
 
-        <Navbar.Link
-          href="#"
+        <div
           className="2xl:text-[18px] text-black dark:text-white"
         >
           <Dropdown inline label="Poison Information" className="xl:w-[220px] w-[195px]">
           <Dropdown.Item>
-              <a href="#" className="2xl:text-[16px] text-black dark:white">
+              <a href="/PoisonInformation" className="2xl:text-[16px] text-black dark:white">
+                Articles
+              </a>
+            </Dropdown.Item>
+          <Dropdown.Item>
+              <a href="/News" className="2xl:text-[16px] text-black dark:white">
                 News
               </a>
             </Dropdown.Item>
           <Dropdown.Item>
-              <a href="#" className="2xl:text-[16px] text-black dark:white">
+              <a href="/Trainings" className="2xl:text-[16px] text-black dark:white">
                 Trainings
               </a>
             </Dropdown.Item>
             <Dropdown.Item>
-              <a href="#" className="2xl:text-[16px] text-black dark:white">
+              <a href="/Statistics" className="2xl:text-[16px] text-black dark:white">
                 Statistics
               </a>
             </Dropdown.Item>
+            <Dropdown.Item>
+              <a href="/Toxy" className="2xl:text-[16px] text-black dark:white">
+                Chat with Toxy
+              </a>
+            </Dropdown.Item>
           </Dropdown>
-        </Navbar.Link>
+        </div>
 
         <Navbar.Link
-          href="#"
+          href="/Antidote"
           className="2xl:text-[18px] text-black dark:text-white"
         >
           Antidote
         </Navbar.Link>
 
 
-        <Navbar.Link
+        <div
           href="#"
           className="2xl:text-[18px] text-black dark:text-white"
         >
@@ -100,25 +109,31 @@ const NavbarResponsive = () => {
               </a>
             </Dropdown.Item>
           </Dropdown>
-        </Navbar.Link>
+        </div>
 
-        <Navbar.Link
+        <div
           href="#"
           className="2xl:text-[18px] text-black dark:text-white"
         >
           <Dropdown inline label="About" className=" xl:w-[220px] w-[195px]">
           <Dropdown.Item>
-              <a href="#" className="2xl:text-[16px] text-black dark:white">
+              <a href="/About" className="2xl:text-[16px] text-black dark:white">
+                What is PIS?
+              </a>
+            </Dropdown.Item>
+            
+          <Dropdown.Item>
+              <a href="/#services" className="2xl:text-[16px] text-black dark:white">
                 Services
               </a>
             </Dropdown.Item>
             <Dropdown.Item>
-              <a href="#" className="2xl:text-[16px] text-black dark:white">
+              <a href="/#linkages" className="2xl:text-[16px] text-black dark:white">
                 Linkages
               </a>
             </Dropdown.Item>
             <Dropdown.Item>
-              <a href="#" className="2xl:text-[16px] text-black dark:white">
+              <a href="/FAQ" className="2xl:text-[16px] text-black dark:white">
                 Help & FAQ
               </a>
             </Dropdown.Item>
@@ -128,63 +143,10 @@ const NavbarResponsive = () => {
               </a>
             </Dropdown.Item>
           </Dropdown>
-        </Navbar.Link>
+        </div>
       </Navbar.Collapse>
     </Navbar>
   );
 };
 
 export default NavbarResponsive;
-
-{
-  /*
-  <Navbar rounded fluid className="2xl:mt-1">
-      <Navbar.Brand href="/">
-        <img
-          alt="Flowbite React Logo"
-          className="mr-3 h-10 2xl:h-[8rem]"
-          src="logo.svg"
-        />
-        <div className="self-center grid grid-flow-col grid-rows-2 2xl:ml-2 text-center 2xl:gap-0 gap-0 ml-1">
-          <span className="whitespace-nowrap 2xl:text-[24px] text-[12px] font-semibold dark:text-white uppercase text-poppins">
-            POISON INFORMATION SERVICE
-          </span>
-          <span className="whitespace-nowrap 2xl:text-[18px] text-[8px] font-semibold dark:text-white">
-            West Visayas State University
-          </span>
-        </div>
-      </Navbar.Brand>
-
-      <div className="flex 2xl:order-2">
-        <Navbar.Toggle />
-      </div>
-      <Navbar.Collapse>
-        <Navbar.Link active href="#" className="2xl:text-[18px] text-black dark:white">
-          <p>Home</p>
-        </Navbar.Link>
-        <Navbar.Link href="#" className="2xl:text-[18px] text-black dark:white">
-          About
-        </Navbar.Link>
-        <Navbar.Link href="#" className="2xl:text-[18px] text-black dark:white">
-          Services
-        </Navbar.Link>
-        <Navbar.Link href="#" className="2xl:text-[18px] text-black dark:white">
-          Pricing
-        </Navbar.Link>
-        <Navbar.Link href="#" className="2xl:text-[18px] text-black dark:white">
-          Contact
-        </Navbar.Link>
-      </Navbar.Collapse>
-      <TextInput
-          id="search"
-          placeholder="Search"
-          required
-          rightIcon={HiOutlineSearch}
-          type="search"
-          className="2xl:w-[320px] rounded hidden 2xl:block"
-        />
-        <Button className="hidden 2xl:block">Get started</Button>
-       
-    </Navbar>
- */
-}

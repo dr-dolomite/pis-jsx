@@ -15,7 +15,7 @@ import { HiInformationCircle, HiOfficeBuilding, HiBeaker, HiBookOpen, HiLibrary 
 
 const Services = () => {
   return (
-    <section>
+    <section id="services">
       <h1 className="xl:text-[42px] font-semibold xl:ml-10 xl:mt-10">
         Services
       </h1>

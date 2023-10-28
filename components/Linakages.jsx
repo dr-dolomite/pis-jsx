@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Linakages = () => {
   return (
-    <section>
+    <section id="linkages">
       <h1 className="text-black text-[42px] font-semibold xl:ml-10 xl:mt-[120px]">
         Linkages
       </h1>
