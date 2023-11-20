@@ -52,7 +52,7 @@ const NavbarResponsive = () => {
             <Dropdown.Item>
               <a
                 href="/PoisonInformation"
-                className="2xl:text-[16px] text-black dark:text-white hover:!text-[#FDD247]"
+                className="2xl:text-[16px] text-black dark:text-white"
               >
                 Articles
               </a>
