@@ -68,7 +68,6 @@ const Antidotes = () => {
 
         <div className="flex-center mt-8">
           <div className="grid grid-cols-3 gap-12">
-            <Link href="/antidotes/antidote_id">
               <div className="flex flex-col">
                 <div className="w-[348px] h-[372px] rounded-[38px] bg-[#EFF5F8] hover:bg-[#c5c9cb]">
                   <div className="mt-8 ml-8 h-[40px]">
@@ -78,12 +77,15 @@ const Antidotes = () => {
                   </div>
                   <div className="flex-center mt-2">
                     <div className="w-[180px] h-[180px] mt-4 relative">
+                      <Link href="/antidotes/antidote_id">
                       <Image
                         src="/antidote.png"
                         alt="antidote"
                         fill
                         className="object-contain"
                       />
+                      </Link>
+
                     </div>
                   </div>
                   <div className="flex-center mx-4 mt-4">
@@ -145,9 +147,7 @@ const Antidotes = () => {
                   </div>
                 </div>
               </div>
-            </Link>
 
-            <Link href="/antidotes/antidote_id">
               <div className="flex flex-col">
                 <div className="w-[348px] h-[372px] rounded-[38px] bg-[#EFF5F8] hover:bg-[#c5c9cb]">
                   <div className="mt-8 ml-8 h-[40px]">
@@ -157,12 +157,14 @@ const Antidotes = () => {
                   </div>
                   <div className="flex-center mt-2">
                     <div className="w-[180px] h-[180px] mt-4 relative">
-                      <Image
+                    <Link href="/antidotes/antidote_id">
+                    <Image
                         src="/atropine.png"
                         alt="antidote"
                         fill
                         className="object-contain"
                       />
+                    </Link>
                     </div>
                   </div>
                   <div className="flex-center mx-4 mt-4">
@@ -224,9 +226,7 @@ const Antidotes = () => {
                   </div>
                 </div>
               </div>
-            </Link>
 
-            <Link href="/antidotes/antidote_id">
               <div className="flex flex-col">
                 <div className="w-[348px] h-[372px] rounded-[38px] bg-[#EFF5F8] hover:bg-[#c5c9cb]">
                   <div className="mt-8 ml-8 h-[40px]">
@@ -236,12 +236,15 @@ const Antidotes = () => {
                   </div>
                   <div className="flex-center mt-2">
                     <div className="w-[180px] h-[180px] mt-4 relative">
-                      <Image
+                    <Link href="/antidotes/antidote_id">
+                    <Image
                         src="/calcium.png"
                         alt="antidote"
                         fill
                         className="object-contain"
                       />
+                    </Link>
+
                     </div>
                   </div>
                   <div className="flex-center mx-4 mt-4">
@@ -303,9 +306,7 @@ const Antidotes = () => {
                   </div>
                 </div>
               </div>
-            </Link>
 
-            <Link href="/antidotes/antidote_id">
               <div className="flex flex-col">
                 <div className="w-[348px] h-[372px] rounded-[38px] bg-[#EFF5F8] hover:bg-[#c5c9cb]">
                   <div className="mt-8 ml-8 h-[40px]">
@@ -315,12 +316,14 @@ const Antidotes = () => {
                   </div>
                   <div className="flex-center mt-2">
                     <div className="w-[180px] h-[180px] mt-4 relative">
+                    <Link href="/antidotes/antidote_id">
                       <Image
                         src="/calcium2.png"
                         alt="antidote"
                         fill
                         className="object-contain"
                       />
+                      </Link>
                     </div>
                   </div>
                   <div className="flex-center mx-4 mt-4">
@@ -382,9 +385,7 @@ const Antidotes = () => {
                   </div>
                 </div>
               </div>
-            </Link>
 
-            <Link href="/antidotes/antidote_id">
               <div className="flex flex-col">
                 <div className="w-[348px] h-[372px] rounded-[38px] bg-[#EFF5F8] hover:bg-[#c5c9cb]">
                   <div className="mt-8 ml-8 h-[40px]">
@@ -394,12 +395,14 @@ const Antidotes = () => {
                   </div>
                   <div className="flex-center mt-2">
                     <div className="w-[180px] h-[180px] mt-4 relative">
+                    <Link href="/antidotes/antidote_id">
                       <Image
                         src="/cobra.png"
                         alt="antidote"
                         fill
                         className="object-contain"
                       />
+                      </Link>
                     </div>
                   </div>
                   <div className="flex-center mx-4 mt-4">
@@ -461,9 +464,7 @@ const Antidotes = () => {
                   </div>
                 </div>
               </div>
-            </Link>
 
-            <Link href="/antidotes/antidote_id">
               <div className="flex flex-col">
                 <div className="w-[348px] h-[372px] rounded-[38px] bg-[#EFF5F8] hover:bg-[#c5c9cb]">
                   <div className="mt-8 ml-8 h-[40px]">
@@ -473,12 +474,14 @@ const Antidotes = () => {
                   </div>
                   <div className="flex-center mt-2">
                     <div className="w-[180px] h-[180px] mt-4 relative">
+                    <Link href="/antidotes/antidote_id">
                       <Image
                         src="/diazepam.png"
                         alt="antidote"
                         fill
                         className="object-contain"
                       />
+                      </Link>
                     </div>
                   </div>
                   <div className="flex-center mx-4 mt-4">
@@ -540,7 +543,6 @@ const Antidotes = () => {
                   </div>
                 </div>
               </div>
-            </Link>
           </div>
         </div>
       </div>
