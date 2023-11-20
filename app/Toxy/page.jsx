@@ -97,11 +97,21 @@ const Toxy = () => {
   };
 
   return (
-    <div className="container mx-auto">
-      <div className="flex flex-col h-screen">
-        <h1 className="bg-gradient-to-r from-blue-500 to-[#0067A2] text-transparent bg-clip-text text-center py-3 font-bold text-4xl">
+    <div className="">
+      <div className="mt-10 ml-12">
+      <h1 className="font-bold text-4xl">
           Chat with Toxy
         </h1>
+        <div className="2xl:max-w-[1200px] mt-4">
+        <p className="text-[16px]">
+        Welcome to Toxy, your go-to AI chat bot for all things toxicology and poison-related! With a deep expertise in this field, I'm here to provide you with accurate and reliable information. Ask me anything about toxins, poisons, their effects, and more, and I'll be more than happy to assist you. Let's explore the fascinating world of toxicology together!
+        </p>
+        </div>
+
+      </div>
+      <div className="mt-8">
+      <div className="container mx-auto">
+      <div className="flex flex-col h-screen">
         <div className="flex-grow p-6 max-h-[640px] overflow-y-auto">
           <div className="flex flex-col space-y-4">
             {chatLog.map((message, index) => (
@@ -160,6 +170,9 @@ const Toxy = () => {
           </div>
         </form>
       </div>
+    </div>
+      </div>
+    
     </div>
   );
 };
